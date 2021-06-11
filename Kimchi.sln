@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Apps", "1. Apps", "{931CC3A8-3DA9-447F-8A0D-0A23B556435E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Webjobs", "2. Webjobs", "{86C76FA3-E26B-47E1-8C44-A4D4A6894F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Databases", "3. Databases", "{A21579E7-CDF5-4E57-9FE4-605582CD4808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Libraries", "4. Libraries", "{781F83E1-899D-474C-BB57-45047E07DE28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Testing", "5. Testing", "{D4375ACE-0052-4113-AE11-90DB334488DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kimchi.Libraries.Data", "Kimchi.Libraries.Data\Kimchi.Libraries.Data.csproj", "{125EF463-343B-4CEC-9BB3-F0EB2888A4EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kimchi.Libraries.Services", "Kimchi.Libraries.Services\Kimchi.Libraries.Services.csproj", "{0BA1515A-F55E-4776-B114-B3AB61B7C47C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Kimchi.Databases.MainDatabase", "Kimchi.Databases.MainDatabase\Kimchi.Databases.MainDatabase.sqlproj", "{104ADD68-6713-4663-ACA0-552B3A0FE0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimchi.Webjobs.NewShowsChecker", "Kimchi.Webjobs.NewShowsChecker\Kimchi.Webjobs.NewShowsChecker.csproj", "{819B5FCE-C07F-4419-B7CE-D6325CBA380F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimchi.Webjobs.NewEpisodesChecker", "Kimchi.Webjobs.NewEpisodesChecker\Kimchi.Webjobs.NewEpisodesChecker.csproj", "{C6B43F4B-A7C1-4523-A76E-094C21635CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimchi.Webjobs.ExistingShowsChecker", "Kimchi.Webjobs.ExistingShowsChecker\Kimchi.Webjobs.ExistingShowsChecker.csproj", "{41A4CB78-907A-4727-A31B-3DC5B488C373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimchi.Testing.Console.ExistingShowsChecker", "Kimchi.Testing.Console.ExistingShowsChecker\Kimchi.Testing.Console.ExistingShowsChecker.csproj", "{21663E81-F407-428B-9137-B6C191434C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimchi.Testing.Console.NewEpisodesChecker", "Kimchi.Testing.Console.NewEpisodesChecker\Kimchi.Testing.Console.NewEpisodesChecker.csproj", "{AFCC5F3F-FA0D-4EA8-AD93-B72C6F1629AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimchi.Testing.Console.NewShowsChecker", "Kimchi.Testing.Console.NewShowsChecker\Kimchi.Testing.Console.NewShowsChecker.csproj", "{09A7DD4D-FF76-4869-9BD5-A0DE0C33D4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimchi.Apps.Website", "Kimchi.Apps.Website\Kimchi.Apps.Website.csproj", "{DC432228-765B-4BC6-AA3C-1139868057CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125EF463-343B-4CEC-9BB3-F0EB2888A4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125EF463-343B-4CEC-9BB3-F0EB2888A4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125EF463-343B-4CEC-9BB3-F0EB2888A4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125EF463-343B-4CEC-9BB3-F0EB2888A4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA1515A-F55E-4776-B114-B3AB61B7C47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA1515A-F55E-4776-B114-B3AB61B7C47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA1515A-F55E-4776-B114-B3AB61B7C47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA1515A-F55E-4776-B114-B3AB61B7C47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104ADD68-6713-4663-ACA0-552B3A0FE0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104ADD68-6713-4663-ACA0-552B3A0FE0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104ADD68-6713-4663-ACA0-552B3A0FE0BC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{104ADD68-6713-4663-ACA0-552B3A0FE0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104ADD68-6713-4663-ACA0-552B3A0FE0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104ADD68-6713-4663-ACA0-552B3A0FE0BC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{819B5FCE-C07F-4419-B7CE-D6325CBA380F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819B5FCE-C07F-4419-B7CE-D6325CBA380F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819B5FCE-C07F-4419-B7CE-D6325CBA380F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819B5FCE-C07F-4419-B7CE-D6325CBA380F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B43F4B-A7C1-4523-A76E-094C21635CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B43F4B-A7C1-4523-A76E-094C21635CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B43F4B-A7C1-4523-A76E-094C21635CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B43F4B-A7C1-4523-A76E-094C21635CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A4CB78-907A-4727-A31B-3DC5B488C373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A4CB78-907A-4727-A31B-3DC5B488C373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A4CB78-907A-4727-A31B-3DC5B488C373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A4CB78-907A-4727-A31B-3DC5B488C373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21663E81-F407-428B-9137-B6C191434C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21663E81-F407-428B-9137-B6C191434C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21663E81-F407-428B-9137-B6C191434C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21663E81-F407-428B-9137-B6C191434C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCC5F3F-FA0D-4EA8-AD93-B72C6F1629AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCC5F3F-FA0D-4EA8-AD93-B72C6F1629AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCC5F3F-FA0D-4EA8-AD93-B72C6F1629AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCC5F3F-FA0D-4EA8-AD93-B72C6F1629AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A7DD4D-FF76-4869-9BD5-A0DE0C33D4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A7DD4D-FF76-4869-9BD5-A0DE0C33D4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A7DD4D-FF76-4869-9BD5-A0DE0C33D4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A7DD4D-FF76-4869-9BD5-A0DE0C33D4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC432228-765B-4BC6-AA3C-1139868057CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC432228-765B-4BC6-AA3C-1139868057CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC432228-765B-4BC6-AA3C-1139868057CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC432228-765B-4BC6-AA3C-1139868057CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{125EF463-343B-4CEC-9BB3-F0EB2888A4EB} = {781F83E1-899D-474C-BB57-45047E07DE28}
+		{0BA1515A-F55E-4776-B114-B3AB61B7C47C} = {781F83E1-899D-474C-BB57-45047E07DE28}
+		{104ADD68-6713-4663-ACA0-552B3A0FE0BC} = {A21579E7-CDF5-4E57-9FE4-605582CD4808}
+		{819B5FCE-C07F-4419-B7CE-D6325CBA380F} = {86C76FA3-E26B-47E1-8C44-A4D4A6894F5E}
+		{C6B43F4B-A7C1-4523-A76E-094C21635CA5} = {86C76FA3-E26B-47E1-8C44-A4D4A6894F5E}
+		{41A4CB78-907A-4727-A31B-3DC5B488C373} = {86C76FA3-E26B-47E1-8C44-A4D4A6894F5E}
+		{21663E81-F407-428B-9137-B6C191434C5D} = {D4375ACE-0052-4113-AE11-90DB334488DE}
+		{AFCC5F3F-FA0D-4EA8-AD93-B72C6F1629AA} = {D4375ACE-0052-4113-AE11-90DB334488DE}
+		{09A7DD4D-FF76-4869-9BD5-A0DE0C33D4FD} = {D4375ACE-0052-4113-AE11-90DB334488DE}
+		{DC432228-765B-4BC6-AA3C-1139868057CC} = {931CC3A8-3DA9-447F-8A0D-0A23B556435E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9065451-AE9B-433B-97F9-55E7F959456C}
+	EndGlobalSection
+EndGlobal
